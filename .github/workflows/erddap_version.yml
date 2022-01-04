@@ -13,7 +13,7 @@ jobs:
     name: Check the current ERDDAP version
     runs-on: ubuntu-18.04
     timeout-minutes: 5
-    if: github.repository == 'axiom-data-science/docker-erddap'
+    if: github.repository == 'cioosatlantic/docker-erddap'
 
     steps:
     - name: Checkout
