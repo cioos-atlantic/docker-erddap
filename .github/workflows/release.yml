@@ -5,7 +5,7 @@ on:
   types: [published]
 
 env:
-  BUILDX_CACHE: /tmp/.buildx-tag-cache
+  BUILDX_CACHE: /tmp/.buildx-tag-cache-v3
   CACHE_KEY: docker-erddap-buildx-tag-v3
 
 jobs:
