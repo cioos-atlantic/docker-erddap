@@ -6,7 +6,7 @@ on:
 
 env:
   BUILDX_CACHE: /tmp/.buildx-tag-cache
-  CACHE_KEY: docker-erddap-buildx-tag-v2
+  CACHE_KEY: docker-erddap-buildx-tag-v3
 
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: ${ BUILDX_CACHE }
-        key: ${ CACHE_KEY }${{ github.sha }}
+        key: ${ CACHE_KEY }
         restore-keys: |
           ${ CACHE_KEY }
 
@@ -72,7 +72,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: ${ BUILDX_CACHE }
-        key: ${ CACHE_KEY }${{ github.sha }}
+        key: ${ CACHE_KEY }
         restore-keys: |
           ${ CACHE_KEY }
 
