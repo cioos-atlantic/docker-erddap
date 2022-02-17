@@ -5,6 +5,7 @@ A feature full Tomcat (SSL over APR, etc.) running [ERDDAP](http://coastwatch.pf
 Available versions:
 
 * `cioosatlantic/docker-erddap:latest`
+* `cioosatlantic/docker-erddap:2.17`
 * `cioosatlantic/docker-erddap:2.16`
 * `axiom/docker-erddap:2.14`
 * `axiom/docker-erddap:2.11`
