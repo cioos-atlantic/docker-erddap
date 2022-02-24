@@ -8,12 +8,6 @@ Available versions:
 * `cioosatlantic/docker-erddap:2.18`
 * `cioosatlantic/docker-erddap:2.17`
 * `cioosatlantic/docker-erddap:2.16`
-* `axiom/docker-erddap:2.14`
-* `axiom/docker-erddap:2.11`
-* `axiom/docker-erddap:2.10`
-* `axiom/docker-erddap:2.02`
-* `axiom/docker-erddap:1.82`
-* `axiom/docker-erddap:1.80`
 
 See all versions available [here](https://hub.docker.com/r/axiom/docker-erddap/tags). As always, consult the [ERDDAP Changes](https://coastwatch.pfeg.noaa.gov/erddap/download/changes.html) documentation before upgrading your sever.
 
